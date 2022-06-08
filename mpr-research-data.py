@@ -6,6 +6,7 @@ import sys
 import pandas as pd
 import sqlalchemy as sql
 from google.cloud import storage
+from google.cloud import bigquery
 from google.cloud import exceptions as GCPExceptions
 from google.auth import exceptions as GAuthExceptions
 
